@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
     <head>
         <meta charset="utf-8">
@@ -61,20 +61,26 @@
             .carousel-inner .carousel-item-start { 
                 transform: translateX(0);
             }
+
+            .card {
+        border: none; /* Remove a borda da classe card */
+        box-shadow: none; /* Remove qualquer sombra */
+    }
         </style>
+
+        
     </head>
 
 <div class="container text-center my-3">
     <div class="row mx-auto my-auto justify-content-center">
         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
+                <div class="carousel-item active ">
                     <div class="col-md-3">
                         <div class="card">
                             <div class="card-img">
                                 <img src="img/brands/renault.png" class="img-fluid">
                             </div>
-                            <!-- <div class="card-img-overlay">Slide 1</div> -->
                         </div>
                     </div>
                 </div>
@@ -82,9 +88,8 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="card-img">
-                                <img src="https://via.placeholder.com/700x500.png/DDBEA9/333333?text=2" class="img-fluid">
+                                <img src="img/brands/fiat.png" class="img-fluid">
                             </div>
-                            <div class="card-img-overlay">Slide 2</div>
                         </div>
                     </div>
                 </div>
@@ -92,9 +97,8 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="card-img">
-                                <img src="https://via.placeholder.com/700x500.png/FFE8D6/333333?text=3" class="img-fluid">
+                                <img src="img/brands/bmw.png" class="img-fluid">
                             </div>
-                            <div class="card-img-overlay">Slide 3</div>
                         </div>
                     </div>
                 </div>
@@ -102,9 +106,8 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="card-img">
-                                <img src="https://via.placeholder.com/700x500.png/B7B7A4/333333?text=4" class="img-fluid">
+                                <img src="img/brands/citroen.png" class="img-fluid">
                             </div>
-                            <div class="card-img-overlay">Slide 4</div>
                         </div>
                     </div>
                 </div>
@@ -112,9 +115,8 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="card-img">
-                                <img src="https://via.placeholder.com/700x500.png/A5A58D/333333?text=5" class="img-fluid">
+                                <img src="img/brands/volks.png" class="img-fluid">
                             </div>
-                            <div class="card-img-overlay">Slide 5</div>
                         </div>
                     </div>
                 </div>
@@ -122,21 +124,39 @@
                     <div class="col-md-3">
                         <div class="card">
                             <div class="card-img">
-                                <img src="https://via.placeholder.com/700x500.png/6B705C/eeeeee?text=6" class="img-fluid">
+                                <img src="img/brands/landrover.png" class="img-fluid">
                             </div>
-                            <div class="card-img-overlay">Slide 6</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/brands/mitsubishi.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="img/brands/audi.png" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-bs-slide="prev" >
+                <span class="" aria-hidden="true"> <i class="bi bi-chevron-left" style="color: #a6ae09 ; font-size: 40px; margin-right: 150px;"></i> </span>
                 <span class="visually-hidden">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-bs-slide="next" >
+                <span class="" aria-hidden="true"> <i class="bi bi-chevron-right" style="color: #a6ae09 ; font-size: 40px; margin-left: 150px;"></i> </span>
                 <span class="visually-hidden">Next</span>
             </a>
+            
             
         </div>
     </div>		
